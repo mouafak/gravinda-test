@@ -110,3 +110,48 @@ hr{
 	background-color: #e93225;
 
 }
+
+@media (max-width: 900px){
+
+	.content{
+		display: flex;
+		flex-wrap: wrap;
+		transition: linear.3s;
+	}
+	.block{
+		width: 40%
+	}
+	hr{
+		width : 30%;
+	}
+
+}
+@media(max-width :600px){
+	.content{
+		display: flex;
+		flex-wrap: wrap;
+		transition: linear.3s;
+	}
+	h1{
+		font-size: 20pt;
+	}
+	hr{
+		width: 30%;
+	}
+	.block{
+		width: 100%;
+	}
+	.block img{
+		opacity: 1;
+		filter: grayscale(0);
+	}
+	.pra{
+		font-size: 12pt;
+	}
+	.maintext{
+		font-size: 9pt;
+	}
+	.specifications{
+		font-size: 9pt;
+	}
+}
