@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'playfairdisplay';
+	src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
+		 url('PlayfairDisplay-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html{
+	margin: 5vw;
+	text-align: center;
+}
+
+.content {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.block {
+	width: 20vw;
+	height:auto;
+	margin: 5px;
+	
+}
+
+h1{
+	font-size:20pt;
+}
