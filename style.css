@@ -47,9 +47,22 @@ hr{
 	height:auto;
     margin: 20px auto;
 	background-color: #fff;
-	
+	transition: ease-in-out .2s;
+	cursor: pointer;
+	overflow: hidden;
 }
-
+.block img{
+	opacity: .8;
+	transition: ease-in-out .2s;
+	filter: grayscale(70%);
+}
+.block:hover img{
+	opacity: 1;
+	filter: grayscale(0);
+}
+/* .block:hover{
+	transform: scale(1.01);
+} */
 .picture{
     width: 100%;
     overflow: hidden;
